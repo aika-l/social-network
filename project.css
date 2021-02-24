@@ -129,3 +129,36 @@ ul .light-gray{
     color: black;
     border-style: none;
 }
+
+/* Alert msg */
+.alert-msg{
+    border:solid 1px rgb(179, 179, 179);
+    width: 20%;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 10px;
+    background-color: #dfe5e8;
+    border-radius: 5px;
+    position: relative;
+}
+#hey{
+    color:rgb(61, 61, 61);
+    font-size: large;
+}
+.fas{
+    color:black;
+    border: none;
+    font-size: 15px;
+}
+.close{
+    background-color: #becbd2 ;
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 9px 15px;
+}
+.close:hover{
+    background-color: lightgrey;
+}
