@@ -1,3 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* header nav begin */
+
+#home-icon{
+    background-color: #076490;
+    width: 20%;
+    color: white;
+    float: left;
+    height: 110px;
+}
+#home-icon:hover{
+    background-color: gray;
+    color: black;
+}
+
+#home-icon ul{
+    display: inline;
+}
+
+nav{
+    background-color: #199de5;
+    width: 80%;
+    float: right;
+    height: 110px;
+}
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+ul li:hover{
+    background-color: gray;
+    color: black;
+}
+
+
+
+
 
 .profile-section{
     border:solid 2px transparent;
@@ -44,6 +86,7 @@ hr{
     vertical-align: middle;
 }
 
+/* my groups section*/
 .my-groups-section {
  
     width: 20%;
@@ -81,6 +124,7 @@ font-size: 15px;
     padding-left: 20px;
     font-size: 20px;
 }
+/* my events section */
 .my-events-section{
     
     width: 20%;
@@ -113,4 +157,81 @@ font-size: 15px;
 .my-events-section p{
     padding-left: 20px;
     font-size: 15px;
+
+/*  interests section*/
+
+.interests-section{
+    border:solid 2px transparent;
+    width: 20%;
+    margin-left: 12px;
+    box-shadow: 1px 1px 5px;
+    padding-bottom: 10px;
+
+}
+
+ul .blue {
+    background-color: #076490;
+    color: white;
+    padding: 3px;
+    border-style: none;
+    width: 10%;
+}
+
+ul .skyblue{
+    background-color: #199de5;
+    color: white;
+    padding: 3px;
+    border-style: none;
+}
+
+ul .gray{
+    background-color: rgb(194, 182, 182);
+    color: black;
+    border-style: none;
+}
+
+ul .grayish{
+    background-color: rgb(225, 217, 217);
+    color: black;
+    border-style: none;
+}
+
+ul .light-gray{
+    background-color: rgb(242, 239, 239);
+    color: black;
+    border-style: none;
+}
+
+/* Alert msg */
+.alert-msg{
+    border:solid 1px rgb(179, 179, 179);
+    width: 20%;
+    margin-left: 12px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: left;
+    padding: 0 10px;
+    background-color: #dfe5e8;
+    border-radius: 5px;
+    position: relative;
+}
+#hey{
+    color:rgb(61, 61, 61);
+    font-size: large;
+}
+.fas{
+    color:black;
+    border: none;
+    font-size: 15px;
+}
+.close{
+    background-color: #becbd2 ;
+    position: absolute;
+    right:0;
+    top:0;
+    padding: 9px 15px;
+}
+.close:hover{
+    background-color: lightgrey;
+
 }
