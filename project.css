@@ -4,38 +4,66 @@ body{
 }
 
 /* header nav begin */
-
-#home-icon{
+.left-side{
     background-color: #076490;
-    width: 20%;
     color: white;
+    width: 20%;
     float: left;
-    height: 110px;
+    height: 60px;
+    position: relative;
 }
-#home-icon:hover{
-    background-color: gray;
+
+label.logo{
+    position: absolute;
+    font-size: 25px;
+    line-height: 60px;
+    margin-left: 90px; 
+}
+
+.home-icon{
+    position: absolute;
+    vertical-align: middle;
+    line-height: 65px;
+    margin-left: 45px;
+    margin-top: 5px;
+    
+}
+
+.left-side:hover{
+    background-color: lightgray;
     color: black;
 }
 
-#home-icon ul{
-    display: inline;
-}
-
-nav{
+.right-side{
     background-color: #199de5;
     width: 80%;
     float: right;
-    height: 110px;
-}
-li{
-    list-style-type: none;
-    display: inline;
+    height: 60px; 
+   
 }
 
-ul li:hover{
-    background-color: gray;
-    color: black;
+.map-icon,
+.person-icon,
+.message-icon{
+    display: inline-block;
+    margin-top: 0;
+    padding: 20px;
+   
 }
+
+.map-icon:hover{
+    background-color: white;
+}
+
+.person-icon:hover{
+    background-color: white;
+}
+
+.message-icon:hover{
+    background-color: white;
+}
+
+
 
 
 
