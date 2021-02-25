@@ -4,42 +4,70 @@ body{
 }
 
 /* header nav begin */
-
-#home-icon{
+.left-side{
     background-color: #076490;
-    width: 20%;
     color: white;
+    width: 20%;
     float: left;
-    height: 110px;
+    height: 60px;
+    position: relative;
 }
-#home-icon:hover{
-    background-color: gray;
+
+label.logo{
+    position: absolute;
+    font-size: 25px;
+    line-height: 60px;
+    margin-left: 90px; 
+}
+
+.home-icon{
+    position: absolute;
+    vertical-align: middle;
+    line-height: 65px;
+    margin-left: 45px;
+    margin-top: 5px;
+    
+}
+
+.left-side:hover{
+    background-color: lightgray;
     color: black;
 }
 
-#home-icon ul{
-    display: inline;
-}
-
-nav{
+.right-side{
     background-color: #199de5;
     width: 80%;
     float: right;
-    height: 110px;
-}
-li{
-    list-style-type: none;
-    display: inline;
+    height: 60px; 
+   
 }
 
-ul li:hover{
-    background-color: gray;
-    color: black;
+.map-icon,
+.person-icon,
+.message-icon{
+    display: inline-block;
+    margin-top: 0;
+    padding: 20px;
+   
+}
+
+.map-icon:hover{
+    background-color: white;
+}
+
+.person-icon:hover{
+    background-color: white;
+}
+
+.message-icon:hover{
+    background-color: white;
 }
 
 
 
 
+
+/* Pofile section */
 
 .profile-section{
     border:solid 2px transparent;
@@ -172,41 +200,58 @@ font-size: 15px;
  
     margin-left: 12px;
     box-shadow: 1px 1px 5px;
-    padding-bottom: 10px;
+    padding: 10px;
 
+}
+.para{
+    margin-left: 5px;
+}
+ul{
+    padding-left: 2px;
+}
+
+.interests-section li{
+   margin-bottom:10px;
 }
 
 ul .blue {
     background-color: #076490;
     color: white;
-    padding: 3px;
+    padding: 2px;
     border-style: none;
-    width: 10%;
+    display: inline-block;
 }
 
 ul .skyblue{
     background-color: #199de5;
     color: white;
-    padding: 3px;
+    padding: 2px;
     border-style: none;
+    display: inline-block;
 }
 
 ul .gray{
     background-color: rgb(194, 182, 182);
     color: black;
+    padding: 2px;
     border-style: none;
+    display: inline-block;
 }
 
 ul .grayish{
     background-color: rgb(225, 217, 217);
     color: black;
+    padding: 2px;
     border-style: none;
+    display: inline;
 }
 
 ul .light-gray{
     background-color: rgb(242, 239, 239);
     color: black;
+    padding: 2px;
     border-style: none;
+    display: inline-block;
 }
 
 /* Alert msg */
@@ -317,6 +362,7 @@ hr{
     margin: auto;
     
 }
+/* Reactions to post */
 .reactions{
     display: flex;
     flex-direction: row;
@@ -356,3 +402,58 @@ button:hover{
 #link:visited{
     color:black;
 }
+
+/* Friend request section */
+.friend-request{
+    border: solid 1px ;
+    box-shadow: 1px 1px 5px;
+    padding: 20px;
+}
+.friend-request p{
+    text-align: center;
+}
+span{
+
+margin-left: 50px;
+margin-bottom:20px ;
+}
+
+.top-section img{
+ margin-left: 37px;
+}
+
+
+.options .button{
+border: solid 1px transparent;
+width: 40%;
+padding: 4px;
+display: inline;
+padding-left: 26px;
+
+
+
+}
+.options .checkmark{
+    background-color: rgba(0, 128, 0, 0.486);
+   
+    
+}
+.options .xmark{
+    background-color: rgba(255, 0, 0, 0.479);
+}
+.button:hover{
+background-color: grey;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    
+}
+ .button img{
+    align-items: center;
+
+}
+.options {
+    margin-top: 20px;
+}
+
