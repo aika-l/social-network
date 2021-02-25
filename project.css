@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-/* header nav begin */
+/* header nav */
 .left-side{
     background-color: #076490;
     color: white;
@@ -401,6 +401,30 @@ button:hover{
 }
 #link:visited{
     color:black;
+}
+/* upcoming events section */
+.upcoming-events{
+    border-style: none;
+    box-shadow: 1px 1px 5px;
+    padding: 10px;
+}
+
+.upcoming-para{
+    text-align: center;
+}
+
+.react-course{
+    text-align: center;  
+}
+
+.info{
+    background-color: #becbd2;
+    padding: 15px;
+}
+
+.info:hover{
+    background-color: #076490;
+    color: white;
 }
 
 /* Friend request section */
