@@ -71,7 +71,7 @@ label.logo{
 
 .profile-section{
     border:solid 2px transparent;
-    width: 20%;
+    /* width: 20%; */
     margin-left: 12px;
     box-shadow: 1px 1px 5px;
     padding-bottom: 10px;
@@ -121,7 +121,7 @@ hr{
 }
 .my-groups-section {
  
-    width: 20%;
+ 
     height: 200%;
     margin-left: 12px;
     box-shadow: 1px 1px 5px;
@@ -162,7 +162,7 @@ font-size: 15px;
 }
 .my-events-section{
     
-    width: 20%;
+   
     height: 200%;
     margin-left: 12px;
     box-shadow: 1px 1px 5px;
@@ -197,7 +197,7 @@ font-size: 15px;
 
 .interests-section{
     border:solid 2px transparent;
-    width: 20%;
+ 
     margin-left: 12px;
     box-shadow: 1px 1px 5px;
     padding-bottom: 10px;
@@ -240,7 +240,7 @@ ul .light-gray{
 /* Alert msg */
 .alert-msg{
     border:solid 1px rgb(179, 179, 179);
-    width: 20%;
+   
     margin-left: 12px;
     margin-bottom: 10px;
     line-height: 1.5;
@@ -269,4 +269,73 @@ ul .light-gray{
 .close:hover{
     background-color: lightgrey;
 
+}
+
+/* Middle Section */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 1px ;
+    align-items: flex-start;
+
+}
+.left, .right, .middle{
+    /* margin: 35px;
+    padding: 35px; */
+    border: solid 1px;
+}
+.left, .right, .middle{
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left{
+    width: 20%;
+
+}
+.right{
+    width: 15%;
+}
+.middle{
+    width: 60%;
+    background-color: navajowhite;
+    
+}
+.first-post{
+    flex-direction: column;
+    padding:15px;
+}
+
+.friend-post img{
+    flex-direction: row;
+    border-radius:50% ;
+    width: 60px;
+}
+.friend-post{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    flex-direction: row;
+    /* padding: 12px; */
+   
+}
+.time{
+    margin-left: auto;
+    color: #113311;
+}
+.friend-post h4{
+   padding: 0px 15px;
+}
+.first-post hr{
+    width: 99%;
+    color: transparent;
+}
+.post-pic{
+    display: inherit;
+    flex-direction: row;
+    
+}
+.left-pic img, .right-pic img{
+    width: 28%;
 }
