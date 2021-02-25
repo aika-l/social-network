@@ -402,6 +402,8 @@ button:hover{
 #link:visited{
     color:black;
 }
+
+
 /* upcoming events section */
 .upcoming-events{
     border-style: none;
@@ -426,6 +428,14 @@ button:hover{
     background-color: #076490;
     color: white;
 }
+.my-post{
+    border: solid 1px lightgrey;
+    
+}
+.actual-post{
+    padding: 10px 10px;
+}
+
 
 /* Friend request section */
 .friend-request{
