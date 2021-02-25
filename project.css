@@ -87,6 +87,10 @@ hr{
 }
 
 /* my groups section*/
+.my-groups-section a,
+.my-events-section a{
+    text-decoration: none;
+}
 .my-groups-section {
  
     width: 20%;
@@ -97,7 +101,7 @@ hr{
     margin-top: 20px;
 }
 .group {
-   border: solid 1px;
+   border: solid 0px;
   background-color: #199de5;
   padding: 17px;
   padding-left: 4%;
@@ -125,6 +129,9 @@ font-size: 15px;
     font-size: 20px;
 }
 /* my events section */
+.events:hover{
+    background-color: rgb(114, 114, 243);
+}
 .my-events-section{
     
     width: 20%;
@@ -157,7 +164,7 @@ font-size: 15px;
 .my-events-section p{
     padding-left: 20px;
     font-size: 15px;
-
+}
 /*  interests section*/
 
 .interests-section{
