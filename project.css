@@ -200,41 +200,58 @@ font-size: 15px;
  
     margin-left: 12px;
     box-shadow: 1px 1px 5px;
-    padding-bottom: 10px;
+    padding: 10px;
 
+}
+.para{
+    margin-left: 5px;
+}
+ul{
+    padding-left: 2px;
+}
+
+.interests-section li{
+   margin-bottom:10px;
 }
 
 ul .blue {
     background-color: #076490;
     color: white;
-    padding: 3px;
+    padding: 2px;
     border-style: none;
-    width: 10%;
+    display: inline-block;
 }
 
 ul .skyblue{
     background-color: #199de5;
     color: white;
-    padding: 3px;
+    padding: 2px;
     border-style: none;
+    display: inline-block;
 }
 
 ul .gray{
     background-color: rgb(194, 182, 182);
     color: black;
+    padding: 2px;
     border-style: none;
+    display: inline-block;
 }
 
 ul .grayish{
     background-color: rgb(225, 217, 217);
     color: black;
+    padding: 2px;
     border-style: none;
+    display: inline;
 }
 
 ul .light-gray{
     background-color: rgb(242, 239, 239);
     color: black;
+    padding: 2px;
     border-style: none;
+    display: inline-block;
 }
 
 /* Alert msg */
