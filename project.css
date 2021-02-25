@@ -44,3 +44,73 @@ hr{
     vertical-align: middle;
 }
 
+.my-groups-section {
+ 
+    width: 20%;
+    height: 200%;
+    margin-left: 12px;
+    box-shadow: 1px 1px 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+.group {
+   border: solid 1px;
+  background-color: #199de5;
+  padding: 17px;
+  padding-left: 4%;
+
+}
+.group .circle-logo{
+    display: inline;
+    width: 1%;
+
+    vertical-align: middle;
+    
+}
+.group h5{
+display: inline;
+color: white;
+margin-left: 10px;
+font-size: 15px;
+
+}
+.group:hover{
+    background-color: rgb(114, 114, 243);
+}
+.my-groups-section p{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.my-events-section{
+    
+    width: 20%;
+    height: 200%;
+    margin-left: 12px;
+    box-shadow: 1px 1px 5px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    
+}
+.events{
+
+    border: solid 1px transparent;
+    background-color: #199de5;
+    padding: 17px;
+    padding-left: 4%;
+}
+.events .calendar-logo{
+    display: inline;
+    width: 1%;
+
+    vertical-align: middle;
+}
+.events h5{
+    display: inline;
+color: white;
+margin-left: 10px;
+font-size: 15px;
+}
+.my-events-section p{
+    padding-left: 20px;
+    font-size: 15px;
+}
