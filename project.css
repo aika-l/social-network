@@ -67,7 +67,7 @@ label.logo{
 
 
 
-
+/* Pofile section */
 
 .profile-section{
     border:solid 2px transparent;
@@ -338,4 +338,57 @@ main{
 }
 .left-pic img, .right-pic img{
     width: 28%;
+}
+/* Friend request section */
+.friend-request{
+    border: solid 1px ;
+    box-shadow: 1px 1px 5px;
+    padding: 20px;
+}
+.friend-request p{
+    text-align: center;
+}
+span{
+
+margin-left: 50px;
+margin-bottom:20px ;
+}
+
+.top-section img{
+ margin-left: 37px;
+}
+
+
+.options .button{
+border: solid 1px transparent;
+width: 40%;
+padding: 4px;
+display: inline;
+padding-left: 26px;
+
+
+
+}
+.options .checkmark{
+    background-color: rgba(0, 128, 0, 0.486);
+   
+    
+}
+.options .xmark{
+    background-color: rgba(255, 0, 0, 0.479);
+}
+.button:hover{
+background-color: grey;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    
+}
+ .button img{
+    align-items: center;
+
+}
+.options {
+    margin-top: 20px;
 }
