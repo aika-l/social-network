@@ -509,6 +509,7 @@ background-color: grey;
     text-align:center;
     box-shadow: 1px 1px 5px;
     padding: 40px;
+    width:30%;
    
 }
 
@@ -542,4 +543,15 @@ padding: 10px;
 .label.logo{
     width: 0%;
 }
+.options .button{
+   padding-left: 10%;
+}
+span{
+    margin-left: 0%;
+}
+.top-section img{
+    margin-left: 14px;
+    width: 65%;
+}
+
 }
