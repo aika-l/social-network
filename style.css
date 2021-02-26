@@ -1,11 +1,8 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;  
 }
-
-
 /* header nav */
 header{
     margin-bottom:10px;
@@ -17,16 +14,14 @@ nav{
     top:0;
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    
+    align-items: stretch; 
 }
 .left-side{
     background-color: #076490;
     color: white;
-    width: 220px;
+    width: 150px;
     float: left;
     height: 50px;
-    /* position: relative; */
 }
 
 .home-icon{
@@ -35,8 +30,7 @@ nav{
     margin-top: 16px; 
     text-align: center;
     font-size: 15px;
-    color: white
-   
+    color: white;
 }
 .seytech-icon:hover{
 color: black;
@@ -47,20 +41,16 @@ color: black;
     line-height: 55px;
     margin-left: 45px;
     margin-top: 5px;
-   
 }
-
 .left-side:hover{
     background-color: lightgray;
     color: black;
 }
-
 .right-side{
     background-color: #199de5;
     width: 90%;
     height: 50px;
 }
-
 .map-icon,
 .person-icon,
 .message-icon{
@@ -75,16 +65,15 @@ color: black;
     background-color: white;
     color: black;
 }
-
-.left-side h5:hover{
+.left-side p:hover{
 color: black;
 }
-.seytech-logo h5{
-    width: 80%;
-    margin:auto ;
-    margin-top: 17px;
+.seytech-logo p{
+    width: 100%;
+    margin-top: 15px;
+    font-size: 19px;
+    text-align: center;  
 }
-
 
 /* Pofile section */
 
