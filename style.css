@@ -271,7 +271,7 @@ ul .light-gray{
     color:rgb(61, 61, 61);
     font-size: large;
 }
-.fas{
+.close .fas{
     color:black;
     border: none;
     font-size: 15px;
@@ -354,39 +354,43 @@ hr{
     width: 99%;
     color: transparent;
 }
+/* post-content */
+.post-content{
+    margin-bottom: 10px;
+}
+
+/* post-pics */
+.two-pic{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
 .left-pic img, .right-pic img{
-    width:25vw;
+    width: 100%;  
+    height:100%;  
 }
 .left-pic, .right-pic{
-    display: inline;
-    margin: auto;
-    
+    width: 49%;
 }
 /* Reactions to post */
 .reactions{
     display: flex;
     flex-direction: row;
 }
-
-.fas{
-    color: white;
-    margin-right: 5px;
+.react{
+  color: white;
+  background-color:#40b1e6;
+  padding: 0px 20px;
+  display:inline;
+  border: none;
+  margin: 5px;
 }
-button{
-    background-color:#40b1e6;
-    padding: 10px 15px;
-    border: none;
-    margin: 5px;
+.react:hover{
+  color: black;
+  background-color: lightgrey;
 }
-button a{
-    color: white;
-    text-decoration: none;
-}
-button:hover{
-    background-color:lightgrey ;
-}
-.fas:hover, a:hover, button:hover{
-    color: black;
+.react .fas{
+    margin-right: 10px;
 }
 .single-pic img{
     width:100%;
@@ -397,11 +401,14 @@ button:hover{
 #review{
     background-color:lightgrey;
     margin-bottom: 5px;
+    margin-left:8px;
 
 }
-#link:visited{
+#review a:visited{
     color:black;
 }
+
+
 /* upcoming events section */
 .upcoming-events{
     border-style: none;
@@ -426,6 +433,14 @@ button:hover{
     background-color: #076490;
     color: white;
 }
+.my-post{
+    border: solid 1px lightgrey;
+    
+}
+.actual-post{
+    padding: 10px 10px;
+}
+
 
 /* Friend request section */
 .friend-request{
@@ -480,4 +495,5 @@ background-color: grey;
 .options {
     margin-top: 20px;
 }
+
 

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
     <title>Social-Network</title>
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -160,6 +160,25 @@
 <!-- middle part -->
 
     <section class='middle'>
+
+        <!-- top_post -->
+        <div class='posts'>
+            <div class="post-content">
+                <div class='my-post'>
+                    <div contenteditable="true" class='actual-post' >Status: Feeling Blue
+                    </div>
+                </div>
+            </div>
+            <div class='reactions'>
+                <div class='like-button'>
+                    <button class='react'>
+                        <p> <i class="fas fa-pencil-alt"></i>Post </p>
+                       </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- first post -->
         <div class='posts'>
             <div class='friend-post'>
                 <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/rachel.jpeg" alt="Avatar">
@@ -169,29 +188,31 @@
                 </p>
             </div>
             <hr>
-            <div class='text-of-post'>
-                <p class='actual-post'>Next cohort will start soon. We strive for teaching our students
+            <div class="post-content">
+                <div class='text-of-post'>
+                    <p class='actual-post'>Next cohort will start soon. We strive for teaching our students
                          the most up-to-date programming technologies. Contact us.</p>
-            </div>
-            <div class='post-pic'>
-                <div class='left-pic'>
-                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png" alt="avatar">
                 </div>
-                <div class='right-pic'>
-                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p1.jpg" alt="">
+                <div class='two-pic'>
+                    <div class='left-pic'>
+                        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png" alt="avatar">
+                    </div>
+                    <div class='right-pic'>
+                        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p1.jpg" alt="">
+                    </div>
                 </div>
             </div>
+            
             <div class='reactions'>
-                <div class='like-button ' for='react'>
-                    <button>
-                        <i class="fas fa-thumbs-up"></i>
-                        <a href="#">Like</a>
-                    </button>
+                <div class='like-button'>
+                    <button class='react'>
+                        <p> <i class="fas fa-thumbs-up"></i>Like </p>
+                         
+                       </button>
                 </div>
-                <div class='comment-button ' for='react'>
-                    <button>
-                        <i class="fas fa-comment"></i>
-                        <a href="#">Comment</a>
+                <div class='comment-button'>
+                    <button class='react'>
+                        <p><i class="fas fa-comment"></i>Comment</p>
                     </button>
                 </div>
             </div>
@@ -208,23 +229,23 @@
                 </p>
             </div>
             <hr>
-            <div class='text-of-post'>
-                <p class='actual-post'>Join us at the new and improved Microsoft! We are building
-                    the Developer Relations dream team in Azure engineering. Our global team is...
-                </p>
-            </div>
-            
-            <div class='reactions'>
-                <div class='like-button ' for='react'>
-                    <button>
-                        <i class="fas fa-thumbs-up"></i>
-                        <a href="#">Like</a>
-                    </button>
+            <div class="post-content">
+                <div class='text-of-post'>
+                    <p class='actual-post'>Join us at the new and improved Microsoft! We are building
+                        the Developer Relations dream team in Azure engineering. Our global team is...
+                    </p>
                 </div>
-                <div class='comment-button ' for='react'>
-                    <button>
-                        <i class="fas fa-comment"></i>
-                        <a href="#">Comment</a>
+            </div>
+            <div class='reactions'>
+                <div class='like-button'>
+                    <button class='react'>
+                        <p> <i class="fas fa-thumbs-up"></i>Like </p>
+                         
+                       </button>
+                </div>
+                <div class='comment-button'>
+                    <button class='react'>
+                        <p><i class="fas fa-comment"></i>Comment</p>
                     </button>
                 </div>
             </div>
@@ -241,32 +262,33 @@
                 </p>
             </div>
             <hr>
-            <div class='text-of-post'>
-                <p class='actual-post'>Have you seen this?</p>
-            </div>
-            <div class='post-pic'>
-                <div class='single-pic'>
-                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png" alt="avatar">
+            <div class="post-content">
+                <div class='text-of-post'>
+                    <p class='actual-post'>Have you seen this?</p>
                 </div>
-                <p class='actual-post' id='last-post' >Coding bootcamp reviews, rankings, and resources to help
-                    students find what they need.
-                </p>
-                <span id='review'>
-                    <a href="#" id='link'>Bootcamp Venue</a>
-                </span>
-                
-            </div>
+                <div class='post-pic'>
+                    <div class='single-pic'>
+                        <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png" alt="avatar">
+                    </div>
+                    <p class='actual-post' id='last-post' >Coding bootcamp reviews, rankings, and resources to help
+                        students find what they need.
+                    </p>
+                    <span id='review'>
+                        <a href="#">Bootcamp Venue</a>
+                    </span>
+
+                </div>
+            </div>    
             <div class='reactions'>
-                <div class='like-button ' for='react'>
-                    <button>
-                        <i class="fas fa-thumbs-up"></i>
-                        <a href="#">Like</a>
-                    </button>
+                <div class='like-button'>
+                    <button class='react'>
+                        <p> <i class="fas fa-thumbs-up"></i>Like </p>
+                         
+                       </button>
                 </div>
-                <div class='comment-button ' for='react'>
-                    <button>
-                        <i class="fas fa-comment"></i>
-                        <a href="#">Comment</a>
+                <div class='comment-button'>
+                    <button class='react'>
+                        <p><i class="fas fa-comment"></i>Comment</p>
                     </button>
                 </div>
             </div>
