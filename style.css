@@ -5,15 +5,28 @@ body{
     
 }
 
-/* header nav */
 
+/* header nav */
+header{
+    margin-bottom:10px;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    margin-top: 0;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    
+}
 .left-side{
     background-color: #076490;
     color: white;
-    width: 10%;
+    width: 120px;
     float: left;
     height: 50px;
-    position: relative;
+    /* position: relative; */
 }
 
 .home-icon{
@@ -45,46 +58,32 @@ color: black;
 .right-side{
     background-color: #199de5;
     width: 90%;
-    float: right;
     height: 50px;
-    
-   
 }
 
 .map-icon,
 .person-icon,
 .message-icon{
-    display: inline-block;
+    display:  inline-block; 
     margin: 0;
     padding: 16px 10px;
-    color: white;
-   
+    color: white;    
 }
-
-.map-icon:hover{
-    background-color: white;
-    color: black;
-}
-
-.person-icon:hover{
-    background-color: white;
-    color: black;
-}
-
+.map-icon:hover,
+.person-icon:hover,
 .message-icon:hover{
     background-color: white;
     color: black;
 }
+
 .left-side h5:hover{
 color: black;
 }
 .seytech-logo h5{
-margin-left:20px ;
-margin-top: 17px;
+    width: 80%;
+    margin:auto ;
+    margin-top: 17px;
 }
-
-
-
 
 
 /* Pofile section */
@@ -92,13 +91,11 @@ margin-top: 17px;
 .profile-section{
     border:solid 2px transparent;
     /* width: 20%; */
-   
     box-shadow: 1px 1px 5px;
    padding-bottom: 10px;
-    
 }
 .profile-section
- h4{
+.my-profile{
     text-align: center;
     font-size: 20px;
 }
@@ -112,28 +109,25 @@ margin-top: 17px;
 }
 .profile-section hr{
     width: 70%;
-    
     color: transparent;
-    
 }
 .profile-text {
-    padding-left: 60px;
+    padding-left: 15px;
     display: flex;
     text-align: left;
     width: 100%;
-    position: relative;
-
-
 }
+
 .icons{
-    padding-left: 10px;
-    position: absolute;
     left: 0%;
     bottom: 0;
     width: 20%;
-    vertical-align: middle;
+    vertical-align: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-
 /* my groups section*/
 .group-event{
     box-shadow: 1px 1px 5px;
@@ -342,6 +336,8 @@ main{
     margin: 10px;
     padding-top: 25px;
     background-color:#f5f7f8 ;
+    margin-top: 40px;
+    
 
 }
 .left, .right, .middle{
@@ -579,54 +575,7 @@ padding: 10px;
     margin-bottom: 19px ;
 }
 
-@media (max-width:425px){
-    main{
-        flex-direction: column;
-        
-    }
-    .left,
-     .right,
-     .middle
-     {
-         width: 100%;
-     }
-     .left-side{
-         width: 25%;
-     }
-     .right-side{
-         width: 75%;
-     }
-     .alert-msg{
-         display: none;
-     }
-     .options{
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-     }
-     .options .button{
-    width:88%;
-    margin-bottom: 20px;
-     }
-     .xmark img, .checkmark img,
-     .top-section span{
-        margin-left: 40%;
-     }
-     .top-section img{
-         margin-left: 17%;
-     }
-     .friend-request{
-         padding: 10px;
-     }
-    .bugs img{
-        width: 40%;
-    }
-    .bugs{
-        padding: 20px 35%;
-      
-    }
-     
-}
+
 @media (max-width:768px) {
     
    
@@ -661,4 +610,54 @@ padding: 10px;
     .bugs img{
     width: 80%;
     }
+    }
+    @media (max-width:425px){
+        main{
+            flex-direction: column;
+            
+        }
+        .left,
+         .right,
+         .middle
+         {
+             width: 100%;
+         }
+         .left-side{
+             width: 120px;
+         }
+            
+        }
+         /* .right-side i{
+             display: none;
+         } */
+         .alert-msg{
+             display: none;
+         }
+         .options{
+             display: flex;
+             flex-direction: column;
+             width: 100%;
+         }
+         .options .button{
+        width:88%;
+        margin-bottom: 20px;
+         }
+         .xmark img, .checkmark img,
+         .top-section span{
+            margin-left: 40%;
+         }
+         .top-section img{
+             margin-left: 17%;
+         }
+         .friend-request{
+             padding: 10px;
+         }
+        .bugs img{
+            width: 40%;
+        }
+        .bugs{
+            padding: 20px 35%;
+          
+        }
+         
     }
