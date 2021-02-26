@@ -7,7 +7,7 @@ body{
 .left-side{
     background-color: #076490;
     color: white;
-    width: 20%;
+    width: 15%;
     float: left;
     height: 60px;
     position: relative;
@@ -23,7 +23,7 @@ label.logo{
 .home-icon{
     position: absolute;
     vertical-align: middle;
-    line-height: 65px;
+    line-height: 55px;
     margin-left: 45px;
     margin-top: 5px;
     
@@ -36,9 +36,10 @@ label.logo{
 
 .right-side{
     background-color: #199de5;
-    width: 80%;
+    width: 85%;
     float: right;
-    height: 60px; 
+    height: 60px;
+    
    
 }
 
@@ -46,21 +47,25 @@ label.logo{
 .person-icon,
 .message-icon{
     display: inline-block;
-    margin-top: 0;
-    padding: 20px;
+    margin: 0;
+    padding: 20px 30px;
+    color: white;
    
 }
 
 .map-icon:hover{
     background-color: white;
+    color: black;
 }
 
 .person-icon:hover{
     background-color: white;
+    color: black;
 }
 
 .message-icon:hover{
     background-color: white;
+    color: black;
 }
 
 
