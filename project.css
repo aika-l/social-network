@@ -512,3 +512,7 @@ color: white;
 background-color: #076490;
 padding: 10px;
 }
+.second-footer a{
+    text-decoration: none;
+    color: white;
+}
