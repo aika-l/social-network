@@ -58,9 +58,9 @@ color: black;
     margin: 0;
     padding: 16px 10px;
     color: white;
-   
+  
 }
-
+f
 .map-icon:hover{
     background-color: white;
     color: black;
@@ -199,6 +199,7 @@ font-size: 15px;
     display: inline;
     width: 1%;
     vertical-align: middle;
+    
 }
 .events h5,
 .my_photos h5{
@@ -225,8 +226,6 @@ font-size: 15px;
       padding: 5%;
       background-color: white;
       margin-left:2px;
-      /* padding-left: 5.5%; */
-      
 }
 .my-pics{
    display: inline-block;
@@ -340,6 +339,7 @@ main{
     border: solid 1px transparent ;
     align-items: flex-start;
     margin: 10px;
+    
     padding-top: 25px;
     background-color:#f5f7f8 ;
 
@@ -578,11 +578,53 @@ padding: 10px;
 .left-section,.right-section{
     margin-bottom: 19px ;
 }
+@media (max-width:768px) {
 
-@media (max-width:425px){
+    .my-pics{
+        display: block;
+        width:100%;
+        
+    }
+    .cont{
+        margin:auto;
+        width:93%;
+        padding:2px;
+    }
+    .profile-text p{
+       width: 50%;
+    }
+    .label.logo{
+        width: 0%;
+    }
+    .options .button{
+       padding-left: 10%;
+    }
+    span{
+        margin-left: 0%;
+    }
+    .top-section img{
+        margin-left: 14px;
+        width: 65%;
+    }
+    .left-side{
+        width: 15%;
+    }
+    .right-side{
+        width: 85%;
+    
+    }
+    .bugs{
+        width:30%;
+    }
+    .bugs img{
+    width: 80%;
+    }
+    }
+@media (max-device-width:425px){
     main{
         flex-direction: column;
-        
+        margin:auto;
+        width:93%;
     }
     .left,
      .right,
@@ -627,38 +669,3 @@ padding: 10px;
     }
      
 }
-@media (max-width:768px) {
-    
-   
-   
-    
-    .profile-text p{
-       width: 50%;
-    }
-    .label.logo{
-        width: 0%;
-    }
-    .options .button{
-       padding-left: 10%;
-    }
-    span{
-        margin-left: 0%;
-    }
-    .top-section img{
-        margin-left: 14px;
-        width: 65%;
-    }
-    .left-side{
-        width: 15%;
-    }
-    .right-side{
-        width: 85%;
-    
-    }
-    .bugs{
-        width:30%;
-    }
-    .bugs img{
-    width: 80%;
-    }
-    }
