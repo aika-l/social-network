@@ -134,16 +134,15 @@ margin-top: 17px;
 }
 
 /* my groups section*/
+.group-event{
+
+}
 .my-groups-section a,
 .my-events-section a{
     text-decoration: none;
 }
 .my-groups-section {
- 
- 
-    height: 200%;
-    
-    box-shadow: 1px 1px 5px;
+box-shadow: 1px 1px 5px;
     padding-bottom: 10px;
     
 }
@@ -527,7 +526,7 @@ background-color: grey;
     text-align:center;
     box-shadow: 1px 1px 5px;
     padding: 40px;
-    width:62%;
+   
 }
 
 
@@ -554,6 +553,10 @@ padding: 10px;
     margin-bottom: 19px ;
 }
 @media screen and (max-width:768px) {
+    
+   
+   
+    
 .profile-text p{
    width: 50%;
 }
@@ -575,5 +578,60 @@ span{
 }
 .right-side{
     width: 85%;
+
 }
+.bugs{
+    width:30%;
+}
+.bugs img{
+width: 80%;
+}
+}
+@media screen and (max-width:425px){
+    main{
+        flex-direction: column;
+        
+    }
+    .left,
+     .right,
+     .middle
+     {
+         width: 100%;
+     }
+     .left-side{
+         width: 25%;
+     }
+     .right-side{
+         width: 75%;
+     }
+     .alert-msg{
+         display: none;
+     }
+     .options{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .options .button{
+    width:88%;
+    margin-bottom: 20px;
+     }
+     .xmark img, .checkmark img,
+     .top-section span{
+        margin-left: 40%;
+     }
+     .top-section img{
+         margin-left: 17%;
+     }
+     .friend-request{
+         padding: 10px;
+     }
+    .bugs img{
+        width: 40%;
+    }
+    .bugs{
+        padding: 20px 35%;
+      
+    }
+     
 }
