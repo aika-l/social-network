@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header nav */
@@ -29,7 +30,7 @@ label.logo{
     line-height: 55px;
     margin-left: 45px;
     margin-top: 5px;
-    
+   
 }
 
 .left-side:hover{
@@ -80,9 +81,9 @@ label.logo{
 .profile-section{
     border:solid 2px transparent;
     /* width: 20%; */
-    margin-left: 12px;
+   
     box-shadow: 1px 1px 5px;
-    padding-bottom: 10px;
+   padding-bottom: 10px;
     
 }
 .profile-section
@@ -98,11 +99,11 @@ label.logo{
 .maratspic img{
     border-radius: 50%;
 }
-hr{
+.profile-section hr{
     width: 70%;
+    
     color: transparent;
     
- 
 }
 .profile-text {
     padding-left: 60px;
@@ -131,10 +132,10 @@ hr{
  
  
     height: 200%;
-    margin-left: 12px;
+    
     box-shadow: 1px 1px 5px;
     padding-bottom: 10px;
-    margin-top: 20px;
+    
 }
 .group {
    border: solid 0px;
@@ -162,7 +163,7 @@ font-size: 15px;
 }
 .my-groups-section p{
     padding-left: 20px;
-    font-size: 20px;
+   
 }
 /* my events section */
 .events:hover{
@@ -172,7 +173,7 @@ font-size: 15px;
     
    
     height: 200%;
-    margin-left: 12px;
+ 
     box-shadow: 1px 1px 5px;
     padding-bottom: 10px;
     margin-top: 0px;
@@ -206,7 +207,7 @@ font-size: 15px;
 .interests-section{
     border:solid 2px transparent;
  
-    margin-left: 12px;
+    
     box-shadow: 1px 1px 5px;
     padding: 10px;
 
@@ -266,7 +267,7 @@ ul .light-gray{
 .alert-msg{
     border:solid 1px rgb(179, 179, 179);
    
-    margin-left: 12px;
+    
     margin-bottom: 10px;
     line-height: 1.5;
     text-align: left;
@@ -302,14 +303,11 @@ main{
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    border: solid 1px ;
+    border: solid 1px transparent ;
     align-items: flex-start;
+    margin: 10px;
+    padding-top: 25px;
 
-}
-.right{
-    /* margin: 35px;
-    padding: 35px; */
-    border: solid 1px;
 }
 .left, .right, .middle{
     flex-direction: column;
@@ -317,6 +315,9 @@ main{
 }
 .left{
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 .right{
@@ -331,7 +332,7 @@ main{
     margin-bottom: 15px;
     box-shadow: 1px 1px 5px;
 }
-hr{
+.posts hr{
     width: 100%;
     color: transparent;
     margin: 25px 0px;
@@ -452,7 +453,7 @@ hr{
 
 /* Friend request section */
 .friend-request{
-    border: solid 1px ;
+   
     box-shadow: 1px 1px 5px;
     padding: 20px;
 }
@@ -516,8 +517,9 @@ background-color: grey;
     text-align:center;
     box-shadow: 1px 1px 5px;
     padding: 40px;
+    width:30%;
    
-]}
+}
 
 
 /* Footer */
@@ -538,4 +540,26 @@ padding: 10px;
 .second-footer a{
     text-decoration: none;
     color: white;
+}
+.left-section,.right-section{
+    margin-bottom: 19px ;
+}
+@media screen and (max-width:768px) {
+.profile-text p{
+   width: 50%;
+}
+.label.logo{
+    width: 0%;
+}
+.options .button{
+   padding-left: 10%;
+}
+span{
+    margin-left: 0%;
+}
+.top-section img{
+    margin-left: 14px;
+    width: 65%;
+}
+
 }
