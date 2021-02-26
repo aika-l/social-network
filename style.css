@@ -4,6 +4,9 @@ body{
 }
 
 /* header nav */
+header{
+    position: fixed;
+}
 .left-side{
     background-color: #076490;
     color: white;
