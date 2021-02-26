@@ -496,4 +496,19 @@ background-color: grey;
     margin-top: 20px;
 }
 
+/* ads */
+.ads{
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+    padding: 20px;
+    
+}
+
+.bugs{
+    text-align:center;
+    box-shadow: 1px 1px 5px;
+    padding: 40px;
+   
+]}
+
 
