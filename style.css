@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 /* header nav */
@@ -135,15 +136,17 @@ margin-top: 17px;
 
 /* my groups section*/
 .group-event{
-
+    box-shadow: 1px 1px 5px;
+    margin-bottom: 19px;
 }
 .my-groups-section a,
-.my-events-section a{
+.my-events-section a,
+.my-photos-section a{
     text-decoration: none;
 }
 .my-groups-section {
-box-shadow: 1px 1px 5px;
-    padding-bottom: 10px;
+/* box-shadow: 1px 1px 5px; */
+    padding-bottom: 0px;
     
 }
 .group {
@@ -175,33 +178,30 @@ font-size: 15px;
    
 }
 /* my events section */
-.events:hover{
+.events:hover, .my_photos:hover{
     background-color: rgb(114, 114, 243);
 }
 .my-events-section{
-    
-   
     height: 200%;
- 
-    box-shadow: 1px 1px 5px;
-    padding-bottom: 10px;
+    /* box-shadow: 1px 1px 5px; */
+    padding-bottom: 0px;
     margin-top: 0px;
     
 }
-.events{
-
+.events, .my_photos{
     border: solid 1px transparent;
     background-color: #199de5;
     padding: 17px;
     padding-left: 4%;
 }
-.events .calendar-logo{
+.events .calendar-logo, 
+.my_photos .my-photo-logo{
     display: inline;
     width: 1%;
-
     vertical-align: middle;
 }
-.events h5{
+.events h5,
+.my_photos h5{
     display: inline;
 color: white;
 margin-left: 10px;
@@ -210,8 +210,33 @@ font-size: 15px;
 .my-events-section p{
     padding-left: 20px;
     font-size: 15px;
+    
 }
-/*  interests section*/
+
+/* my photos */
+.my-photos-section{
+    margin-top:0;
+    padding:17px 0 0 0;
+    
+}
+
+.cont{   
+      display: block;
+      padding: 5%;
+      background-color: white;
+      margin-left:2px;
+      /* padding-left: 5.5%; */
+      
+}
+.my-pics{
+   display: inline-block;
+   width:45%;
+   padding:  1.5%;
+}
+.my-pics img{
+    width:100%;
+ 
+}
 
 .interests-section{
     border:solid 2px transparent;
@@ -316,11 +341,13 @@ main{
     align-items: flex-start;
     margin: 10px;
     padding-top: 25px;
+    background-color:#f5f7f8 ;
 
 }
 .left, .right, .middle{
     flex-direction: column;
     justify-content: space-between;
+    background-color: white;
 }
 .left{
     width: 20%;
@@ -417,7 +444,6 @@ main{
     margin-bottom: 0px;
 }
 #review{
-    background-color:lightgrey;
     margin-bottom: 5px;
     margin-left:8px;
 
@@ -552,42 +578,8 @@ padding: 10px;
 .left-section,.right-section{
     margin-bottom: 19px ;
 }
-@media screen and (max-width:768px) {
-    
-   
-   
-    
-.profile-text p{
-   width: 50%;
-}
-.label.logo{
-    width: 0%;
-}
-.options .button{
-   padding-left: 10%;
-}
-span{
-    margin-left: 0%;
-}
-.top-section img{
-    margin-left: 14px;
-    width: 65%;
-}
-.left-side{
-    width: 15%;
-}
-.right-side{
-    width: 85%;
 
-}
-.bugs{
-    width:30%;
-}
-.bugs img{
-width: 80%;
-}
-}
-@media screen and (max-width:425px){
+@media (max-width:425px){
     main{
         flex-direction: column;
         
@@ -635,3 +627,38 @@ width: 80%;
     }
      
 }
+@media (max-width:768px) {
+    
+   
+   
+    
+    .profile-text p{
+       width: 50%;
+    }
+    .label.logo{
+        width: 0%;
+    }
+    .options .button{
+       padding-left: 10%;
+    }
+    span{
+        margin-left: 0%;
+    }
+    .top-section img{
+        margin-left: 14px;
+        width: 65%;
+    }
+    .left-side{
+        width: 15%;
+    }
+    .right-side{
+        width: 85%;
+    
+    }
+    .bugs{
+        width:30%;
+    }
+    .bugs img{
+    width: 80%;
+    }
+    }
