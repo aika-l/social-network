@@ -575,7 +575,61 @@ padding: 10px;
     margin-bottom: 19px ;
 }
 
+<<<<<<< HEAD
 
+=======
+@media (max-width:425px){
+    main{
+        flex-direction: column;
+        
+    }
+    .left,
+     .right,
+     .middle
+     {
+         width: 100%;
+     }
+     .left-side{
+         width: 25%;
+     }
+     .right-side{
+         width: 75%;
+     }
+     .alert-msg{
+         display: none;
+     }
+     .options{
+         display: flex;
+         flex-direction: column;
+         width: 100%;
+     }
+     .options .button{
+    width:88%;
+    margin-bottom: 20px;
+     }
+     .xmark img, .checkmark img,
+     .top-section span{
+        margin-left: 40%;
+     }
+     .top-section img{
+         margin-left: 17%;
+     }
+     .friend-request{
+         padding: 10px;
+     }
+    .bugs img{
+        width: 40%;
+    }
+    .bugs{
+        padding: 20px 35%;
+      
+    }
+    .interests-section{
+        display: none;
+    }
+     
+}
+>>>>>>> 5cd2a5b91110c164ae4116f66f1f43fd0f103aac
 @media (max-width:768px) {
     
    
