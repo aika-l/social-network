@@ -23,7 +23,7 @@ nav{
 .left-side{
     background-color: #076490;
     color: white;
-    width: 120px;
+    width: 220px;
     float: left;
     height: 50px;
     /* position: relative; */
@@ -235,7 +235,6 @@ font-size: 15px;
 .interests-section{
     border:solid 2px transparent;
  
-    
     box-shadow: 1px 1px 5px;
     padding: 10px;
 
@@ -294,8 +293,6 @@ ul .light-gray{
 /* Alert msg */
 .alert-msg{
     border:solid 1px rgb(179, 179, 179);
-   
-    
     margin-bottom: 10px;
     line-height: 1.5;
     text-align: left;
@@ -337,8 +334,7 @@ main{
     padding-top: 25px;
     background-color:#f5f7f8 ;
     margin-top: 40px;
-    
-
+  
 }
 .left, .right, .middle{
     flex-direction: column;
@@ -380,9 +376,7 @@ main{
     justify-content: flex-start;
     padding-bottom: 0px;
     flex-direction: row;
-    /* padding: 12px; */
-   
-   
+
 }
 .time{
     margin-left: auto;
@@ -448,7 +442,6 @@ main{
     color:black;
 }
 
-
 /* upcoming events section */
 .upcoming-events{
     border-style: none;
@@ -481,7 +474,6 @@ main{
     padding: 10px 10px;
 }
 
-
 /* Friend request section */
 .friend-request{
    
@@ -492,7 +484,6 @@ main{
     text-align: center;
 }
 span{
-
 margin-left: 50px;
 margin-bottom:20px ;
 }
@@ -501,16 +492,12 @@ margin-bottom:20px ;
  margin-left: 37px;
 }
 
-
 .options .button{
 border: solid 1px transparent;
 width: 40%;
 padding: 4px;
 display: inline;
 padding-left: 26px;
-
-
-
 }
 .options .checkmark{
     background-color: rgba(0, 128, 0, 0.486);
@@ -535,7 +522,6 @@ background-color: grey;
 .options {
     margin-top: 20px;
 }
-
 /* ads */
 .ads{
     text-align: center;
@@ -543,7 +529,6 @@ background-color: grey;
     padding: 20px;
     
 }
-
 .bugs{
     text-align:center;
     box-shadow: 1px 1px 5px;
@@ -551,9 +536,7 @@ background-color: grey;
    
 }
 
-
 /* Footer */
-
 .first-footer{
     border: solid 0px #199de5;
     color: white;
@@ -575,66 +558,7 @@ padding: 10px;
     margin-bottom: 19px ;
 }
 
-<<<<<<< HEAD
-
-=======
-@media (max-width:425px){
-    main{
-        flex-direction: column;
-        
-    }
-    .left,
-     .right,
-     .middle
-     {
-         width: 100%;
-     }
-     .left-side{
-         width: 25%;
-     }
-     .right-side{
-         width: 75%;
-     }
-     .alert-msg{
-         display: none;
-     }
-     .options{
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-     }
-     .options .button{
-    width:88%;
-    margin-bottom: 20px;
-     }
-     .xmark img, .checkmark img,
-     .top-section span{
-        margin-left: 40%;
-     }
-     .top-section img{
-         margin-left: 17%;
-     }
-     .friend-request{
-         padding: 10px;
-     }
-    .bugs img{
-        width: 40%;
-    }
-    .bugs{
-        padding: 20px 35%;
-      
-    }
-    .interests-section{
-        display: none;
-    }
-     
-}
->>>>>>> 5cd2a5b91110c164ae4116f66f1f43fd0f103aac
 @media (max-width:768px) {
-    
-   
-   
-    
     .profile-text p{
        width: 50%;
     }
@@ -651,24 +575,33 @@ padding: 10px;
         margin-left: 14px;
         width: 65%;
     }
-    .left-side{
+    /* .left-side{
         width: 15%;
-    }
+    } */
     .right-side{
         width: 85%;
     
     }
-    .bugs{
-        width:30%;
-    }
     .bugs img{
     width: 80%;
     }
+    .left{
+        width:25%;
+    }
+    .middle{
+        width: 50%;
+    }
+    .right{
+        width: 20%;
+    }
+
     }
     @media (max-width:425px){
         main{
             flex-direction: column;
-            
+            margin:auto;
+            width:93%;
+            margin-top: 50px;
         }
         .left,
          .right,
@@ -676,14 +609,7 @@ padding: 10px;
          {
              width: 100%;
          }
-         .left-side{
-             width: 120px;
-         }
-            
-        }
-         /* .right-side i{
-             display: none;
-         } */
+       
          .alert-msg{
              display: none;
          }
@@ -713,5 +639,21 @@ padding: 10px;
             padding: 20px 35%;
           
         }
-         
+        .my-pics{
+            display: block;
+            width:100%;
+            padding:  3.5%;
+            
+         }
+         .cont{
+             margin: auto;
+            padding-left: 15px;
+            padding-right: 35px; 
+         }
+         .map-icon, .person-icon, .message-icon{
+             display: none;
+         }
+
     }
+         
+    
